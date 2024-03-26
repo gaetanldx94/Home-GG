@@ -18,7 +18,7 @@ sudo apt-get install sqlite3 php-cli php-sqlite3
 git clone https://github.com/gaetanldx94/Home-GG.git
 ```
 
-3. Accédez au répertoire racine du projet dans un terminal.
+2. Accédez au répertoire racine du projet dans un terminal.
 
 ## Configuration de la base de données
 
