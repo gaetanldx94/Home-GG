@@ -7,8 +7,7 @@ Home-GG est un site web proposant plusieurs fonctionnalités telles que le stock
 Avant de pouvoir utiliser Home-GG, assurez-vous d'avoir installé les packages suivants sur votre machine Ubuntu :
 
 ```bash
-sudo apt-get install php-sqlite3
-sudo apt-get install php-cli
+sudo apt-get install sqlite3 php-cli php-sqlite3
 ```
 
 ## Installation
@@ -59,6 +58,6 @@ php -S localhost:8000
 
 2. Accédez à l'URL suivante dans votre navigateur :
 
-[site web](http://localhost:8000/)
+[localhost:8000](http://localhost:8000/)
 
 Vous pouvez désormais utiliser Home-GG correctement. Profitez-en!
