@@ -23,8 +23,8 @@ recognition.onresult = function (event) {
 };
 
 function search(query) {
-	let apiKey = 'AIzaSyBtMSoKoL6JnkRWchJeoYfiQIFj4_JX8Ww';
-	let cx = '57a9c7f984e6e4cc2';
+	let apiKey = 'CLE_API';
+	let cx = 'ID CX';
 	let url = 'https://www.googleapis.com/customsearch/v1?q=' + encodeURIComponent(query) + '&key=' + apiKey + '&cx=' + cx;
 
 	$.get(url, function (data) {
