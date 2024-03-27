@@ -1,8 +1,8 @@
 <?php
 if (isset($_POST['logout'])) {
-    session_unset();
-    session_destroy();
-    header("Location: /");
-    exit();
+	session_unset();
+	session_destroy();
+	header("Location: /");
+	exit();
 }
 ?>
